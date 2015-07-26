@@ -1,0 +1,11 @@
+{
+  "name": "parrot_link_lib",
+  "version": "0.0.1",
+  "description": "Native module integrating with Doppia",
+  "dependencies": {
+    "cmake-js": "*",
+  },
+  "scripts": {
+    "install": "cmake-js rebuild -l silly -g true -o true",
+  }
+}
